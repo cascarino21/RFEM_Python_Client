@@ -12,15 +12,15 @@ columnList = ['UC 152x152x23', 'UC 152x152x30' , 'UC 152x152x37' ,
               'UC 203x203x46', 'UC 203x203x52' , 'UC 203x203x60' , 'UC 203x203x71' , 'UC 203x203x86' ,
               'UC 254x254x73', 'UC 254x254x89' , 'UC 254x254x107', 'UC 254x254x132', 'UC 254x254x167',
               'UC 305x305x97', 'UC 305x305x118', 'UC 305x305x137', 'UC 305x305x158', 'UC 305x305x198', 'UC 305x305x240' ]
-beamList = ['UB 203x133x25', 'UB 203x133x30', 
-            'UB 254x146x31', 'UB 254x146x37', 'UB 254x146x43' , 
-            'UB 305x102x25', 'UB 305x102x28', 'UB 305x102x33' , 
-            'UB 305x165x40', 'UB 305x165x46', 'UB 305x165x54' , 
+beamList = ['UB 203x133x25', 'UB 203x133x30',
+            'UB 254x146x31', 'UB 254x146x37', 'UB 254x146x43' ,
+            'UB 305x102x25', 'UB 305x102x28', 'UB 305x102x33' ,
+            'UB 305x165x40', 'UB 305x165x46', 'UB 305x165x54' ,
             'UB 356x171x45', 'UB 356x171x51', 'UB 356x171x57' , 'UB 356x171x67' ,
             'UB 406x140x39', 'UB 406x140x46',
             'UB 406x178x54', 'UB 406x178x60', 'UB 406x178x67' , 'UB 406x178x74' ,
             'UB 457x191x67', 'UB 457x191x74', 'UB 457x191x82' , 'UB 457x191x89' , 'UB 457x191x98',
-            'UB 533x210x82', 'UB 533x210x92', 'UB 533x210x101', 'UB 533x210x109', 'UB 533x210x122'] 
+            'UB 533x210x82', 'UB 533x210x92', 'UB 533x210x101', 'UB 533x210x109', 'UB 533x210x122']
 
 reducedColumnList = ['UC 152x152x23', 'UC 203x203x52', 'UC 254x254x89', 'UC 305x305x137']
 reducedBeamList = ['UB 203x133x25', 'UB 305x165x40', 'UB 356x171x51', 'UB 406x178x67', 'UB 457x191x89', 'UB 533x210x122']
@@ -67,7 +67,7 @@ def genetic_algotithm(population):
     # memberCount = -1
     # UCs = []
     # for data in results:
-    #     for item in data: 
+    #     for item in data:
     #         if isinstance(item['description'], str):
     #             memberList.append(item)
     #             memberCount = memberCount+1
@@ -81,19 +81,20 @@ def genetic_algotithm(population):
     #     for UC in UCs:
     #         print(max(UC))
 
-def get_results_from_file():
-    with open('results.txt') as file:
-        results = file.read()
-    
-    print(type(results))
+# def get_results_from_file():
+#     with open('results.txt') as file:
+#         results = file.read()
 
-    dict = json.loads(results)
-    print(dict)
-    print(type(dict))
+#     print(type(results))
+
+#     dict = json.loads(results)
+#     print(dict)
+#     print(type(dict))
 
 # Running code and test code
-# change_sections(sectionList=columnList, section_number=1)
+connect_to_RFEM()
+genetic_algotithm([[0,0],[0,1],[1,0],[1,1]])
 # population = create_full_population(reducedColumnList, reducedBeamList)
 # print(population)
 
-get_results_from_file()
+# get_results_from_file()
