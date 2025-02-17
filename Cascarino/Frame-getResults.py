@@ -28,7 +28,7 @@ reducedColumnList = ['UC 152x152x23', 'UC 203x203x52', 'UC 254x254x89', 'UC 305x
 reducedBeamList = ['UB 203x133x25', 'UB 305x165x40', 'UB 356x171x51', 'UB 406x178x67', 'UB 457x191x89', 'UB 533x210x122']
 
 def connect_to_RFEM():
-    model = RFEM.initModel.Model(False, model_name="Model.rf6")
+    model = RFEM.initModel.Model(False, model_name="Model - Portal Frame.rf6")
     print("Connected!")
 
 def create_full_population(section1List, section2List):
@@ -65,7 +65,7 @@ def get_results() -> list:
     return ResultTables.SteelDesignDesignRatiosMembersBySection(True)
 
 def results_to_file(results) -> None:
-    with open('Cascarino\\test.json', 'w', encoding='utf-8') as f:
+    with open('Cascarino\\Frame-resulst.json', 'w', encoding='utf-8') as f:
         json.dump(results, f, ensure_ascii=False, indent=3)
 
 

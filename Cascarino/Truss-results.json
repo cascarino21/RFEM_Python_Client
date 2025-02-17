@@ -1,0 +1,4902 @@
+[
+   [
+      {
+         "no": 1.0,
+         "description": "UC 152x152x37 | 1 - S355JR | Columns"
+      },
+      {
+         "no": 2.0,
+         "description": 1.0,
+         "design_ratio": 0.0852431058883667,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 1.0
+      },
+      {
+         "no": 3.0,
+         "description": 1.0,
+         "design_ratio": 0.16653957962989807,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO2",
+         "design_check_type": "SP3100.00",
+         "member": 2.0
+      },
+      {
+         "no": 4.0,
+         "description": 1.0,
+         "design_ratio": 0.9215333461761475,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO2",
+         "design_check_type": "SP4100.00",
+         "member": 2.0
+      },
+      {
+         "no": 5.0,
+         "description": 1.0,
+         "design_ratio": 0.9215333461761475,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO2",
+         "design_check_type": "SP6400.00",
+         "member": 2.0
+      },
+      {
+         "no": 6.0,
+         "description": 1.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 1.0
+      },
+      {
+         "no": 7.0,
+         "description": 1.0,
+         "design_ratio": 3.730544328689575,
+         "design_situation": "DS2",
+         "location": 6.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 2.0
+      },
+      {
+         "no": 9.0,
+         "description": "UB 356x171x51 | 1 - S355JR | Beams"
+      },
+      {
+         "no": 10.0,
+         "description": 2.0,
+         "design_ratio": 0.13842153549194336,
+         "design_situation": "DS1",
+         "location": 6.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 3.0
+      },
+      {
+         "no": 11.0,
+         "description": 2.0,
+         "design_ratio": 0.1391458362340927,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 4.0
+      },
+      {
+         "no": 12.0,
+         "description": 2.0,
+         "design_ratio": 0.043849878013134,
+         "design_situation": "DS1",
+         "location": 4.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO1",
+         "design_check_type": "SP3100.00",
+         "member": 4.0
+      },
+      {
+         "no": 13.0,
+         "description": 2.0,
+         "design_ratio": 0.08506275713443756,
+         "design_situation": "DS1",
+         "location": 10.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 4.0
+      },
+      {
+         "no": 14.0,
+         "description": 2.0,
+         "design_ratio": 0.19700613617897034,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 3.0
+      },
+      {
+         "no": 15.0,
+         "description": 2.0,
+         "design_ratio": 0.21144917607307434,
+         "design_situation": "DS1",
+         "location": 10.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 4.0
+      },
+      {
+         "no": 16.0,
+         "description": 2.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 3.0
+      },
+      {
+         "no": 17.0,
+         "description": 2.0,
+         "design_ratio": 0.36395150423049927,
+         "design_situation": "DS2",
+         "location": 10.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO3",
+         "design_check_type": "SE1100.00",
+         "member": 4.0
+      },
+      {
+         "no": 19.0,
+         "description": "CHS 63.5x2.5 | 1 - S355JR | Chord"
+      },
+      {
+         "no": 20.0,
+         "description": 3.0,
+         "design_ratio": 0.8852480053901672,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 5.0
+      },
+      {
+         "no": 21.0,
+         "description": 3.0,
+         "design_ratio": 0.8957479000091553,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 6.0
+      },
+      {
+         "no": 22.0,
+         "description": 3.0,
+         "design_ratio": 0.010737855918705463,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 5.0
+      },
+      {
+         "no": 23.0,
+         "description": 3.0,
+         "design_ratio": 0.8956912159919739,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 5.0
+      },
+      {
+         "no": 24.0,
+         "description": 3.0,
+         "design_ratio": 0.9061909914016724,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 6.0
+      },
+      {
+         "no": 25.0,
+         "description": 3.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 5.0
+      },
+      {
+         "no": 26.0,
+         "description": 3.0,
+         "design_ratio": 0.06342636793851852,
+         "design_situation": "DS2",
+         "location": 1.4142135623730951,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 13.0
+      }
+   ],
+   [
+      {
+         "no": 1.0,
+         "description": "UC 305x305x118 | 1 - S355JR | Columns"
+      },
+      {
+         "no": 2.0,
+         "description": 1.0,
+         "design_ratio": 0.028739243745803833,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 1.0
+      },
+      {
+         "no": 3.0,
+         "description": 1.0,
+         "design_ratio": 0.06896007061004639,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO2",
+         "design_check_type": "SP3100.00",
+         "member": 2.0
+      },
+      {
+         "no": 4.0,
+         "description": 1.0,
+         "design_ratio": 0.1755525916814804,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO2",
+         "design_check_type": "SP4100.00",
+         "member": 2.0
+      },
+      {
+         "no": 5.0,
+         "description": 1.0,
+         "design_ratio": 0.1755525916814804,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO2",
+         "design_check_type": "SP6400.00",
+         "member": 2.0
+      },
+      {
+         "no": 6.0,
+         "description": 1.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 1.0
+      },
+      {
+         "no": 7.0,
+         "description": 1.0,
+         "design_ratio": 0.3683110773563385,
+         "design_situation": "DS2",
+         "location": 6.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 2.0
+      },
+      {
+         "no": 9.0,
+         "description": "UB 305x102x28 | 1 - S355JR | Beams"
+      },
+      {
+         "no": 10.0,
+         "description": 2.0,
+         "design_ratio": 0.22651179134845734,
+         "design_situation": "DS1",
+         "location": 6.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 3.0
+      },
+      {
+         "no": 11.0,
+         "description": 2.0,
+         "design_ratio": 0.2317081242799759,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 4.0
+      },
+      {
+         "no": 12.0,
+         "description": 2.0,
+         "design_ratio": 0.06690319627523422,
+         "design_situation": "DS1",
+         "location": 4.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO1",
+         "design_check_type": "SP3100.00",
+         "member": 4.0
+      },
+      {
+         "no": 13.0,
+         "description": 2.0,
+         "design_ratio": 0.11883357912302017,
+         "design_situation": "DS1",
+         "location": 2.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 4.0
+      },
+      {
+         "no": 14.0,
+         "description": 2.0,
+         "design_ratio": 0.26721471548080444,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 3.0
+      },
+      {
+         "no": 15.0,
+         "description": 2.0,
+         "design_ratio": 0.31960442662239075,
+         "design_situation": "DS1",
+         "location": 10.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 4.0
+      },
+      {
+         "no": 16.0,
+         "description": 2.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 3.0
+      },
+      {
+         "no": 17.0,
+         "description": 2.0,
+         "design_ratio": 0.2896099388599396,
+         "design_situation": "DS2",
+         "location": 10.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO3",
+         "design_check_type": "SE1100.00",
+         "member": 4.0
+      },
+      {
+         "no": 19.0,
+         "description": "CHS 101.6x5 | 1 - S355JR | Chord"
+      },
+      {
+         "no": 20.0,
+         "description": 3.0,
+         "design_ratio": 0.2890033721923828,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 5.0
+      },
+      {
+         "no": 21.0,
+         "description": 3.0,
+         "design_ratio": 0.28602731227874756,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 6.0
+      },
+      {
+         "no": 22.0,
+         "description": 3.0,
+         "design_ratio": 0.006785655859857798,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 5.0
+      },
+      {
+         "no": 23.0,
+         "description": 3.0,
+         "design_ratio": 0.2954941689968109,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 5.0
+      },
+      {
+         "no": 24.0,
+         "description": 3.0,
+         "design_ratio": 0.29251807928085327,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 6.0
+      },
+      {
+         "no": 25.0,
+         "description": 3.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 5.0
+      },
+      {
+         "no": 26.0,
+         "description": 3.0,
+         "design_ratio": 0.02546481043100357,
+         "design_situation": "DS2",
+         "location": 1.4142135623730951,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 10.0
+      }
+   ],
+   [
+      {
+         "no": 1.0,
+         "description": "UC 305x305x137 | 1 - S355JR | Columns"
+      },
+      {
+         "no": 2.0,
+         "description": 1.0,
+         "design_ratio": 0.024843530729413033,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 1.0
+      },
+      {
+         "no": 3.0,
+         "description": 1.0,
+         "design_ratio": 0.06121618673205376,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO2",
+         "design_check_type": "SP3100.00",
+         "member": 2.0
+      },
+      {
+         "no": 4.0,
+         "description": 1.0,
+         "design_ratio": 0.1556311696767807,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO2",
+         "design_check_type": "SP4100.00",
+         "member": 2.0
+      },
+      {
+         "no": 5.0,
+         "description": 1.0,
+         "design_ratio": 0.1556311696767807,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO2",
+         "design_check_type": "SP6400.00",
+         "member": 2.0
+      },
+      {
+         "no": 6.0,
+         "description": 1.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 1.0
+      },
+      {
+         "no": 7.0,
+         "description": 1.0,
+         "design_ratio": 0.32562223076820374,
+         "design_situation": "DS2",
+         "location": 6.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 2.0
+      },
+      {
+         "no": 9.0,
+         "description": "UB 203x133x25 | 1 - S355JR | Beams"
+      },
+      {
+         "no": 10.0,
+         "description": 2.0,
+         "design_ratio": 0.24861012399196625,
+         "design_situation": "DS1",
+         "location": 6.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 3.0
+      },
+      {
+         "no": 11.0,
+         "description": 2.0,
+         "design_ratio": 0.25590187311172485,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 4.0
+      },
+      {
+         "no": 12.0,
+         "description": 2.0,
+         "design_ratio": 0.1102398931980133,
+         "design_situation": "DS1",
+         "location": 4.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO1",
+         "design_check_type": "SP3100.00",
+         "member": 4.0
+      },
+      {
+         "no": 13.0,
+         "description": 2.0,
+         "design_ratio": 0.2002331018447876,
+         "design_situation": "DS1",
+         "location": 4.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 4.0
+      },
+      {
+         "no": 14.0,
+         "description": 2.0,
+         "design_ratio": 0.28510767221450806,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 3.0
+      },
+      {
+         "no": 15.0,
+         "description": 2.0,
+         "design_ratio": 0.3810877501964569,
+         "design_situation": "DS1",
+         "location": 4.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 4.0
+      },
+      {
+         "no": 16.0,
+         "description": 2.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 3.0
+      },
+      {
+         "no": 17.0,
+         "description": 2.0,
+         "design_ratio": 0.38760361075401306,
+         "design_situation": "DS2",
+         "location": 10.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO3",
+         "design_check_type": "SE1100.00",
+         "member": 4.0
+      },
+      {
+         "no": 19.0,
+         "description": "CHS 88.9x3 | 1 - S355JR | Chord"
+      },
+      {
+         "no": 20.0,
+         "description": 3.0,
+         "design_ratio": 0.5385220050811768,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 5.0
+      },
+      {
+         "no": 21.0,
+         "description": 3.0,
+         "design_ratio": 0.5334674119949341,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 6.0
+      },
+      {
+         "no": 22.0,
+         "description": 3.0,
+         "design_ratio": 0.007641134783625603,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 5.0
+      },
+      {
+         "no": 23.0,
+         "description": 3.0,
+         "design_ratio": 0.5458682775497437,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 5.0
+      },
+      {
+         "no": 24.0,
+         "description": 3.0,
+         "design_ratio": 0.5408137440681458,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 6.0
+      },
+      {
+         "no": 25.0,
+         "description": 3.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 5.0
+      },
+      {
+         "no": 26.0,
+         "description": 3.0,
+         "design_ratio": 0.031975746154785156,
+         "design_situation": "DS2",
+         "location": 1.4142135623730951,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 9.0
+      }
+   ],
+   [
+      {
+         "no": 1.0,
+         "description": "UC 203x203x52 | 1 - S355JR | Columns"
+      },
+      {
+         "no": 2.0,
+         "description": 1.0,
+         "design_ratio": 0.06172580271959305,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 1.0
+      },
+      {
+         "no": 3.0,
+         "description": 1.0,
+         "design_ratio": 0.13374322652816772,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO2",
+         "design_check_type": "SP3100.00",
+         "member": 2.0
+      },
+      {
+         "no": 4.0,
+         "description": 1.0,
+         "design_ratio": 0.5067045092582703,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO2",
+         "design_check_type": "SP4100.00",
+         "member": 2.0
+      },
+      {
+         "no": 5.0,
+         "description": 1.0,
+         "design_ratio": 0.5067045092582703,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO2",
+         "design_check_type": "SP6400.00",
+         "member": 2.0
+      },
+      {
+         "no": 6.0,
+         "description": 1.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 1.0
+      },
+      {
+         "no": 7.0,
+         "description": 1.0,
+         "design_ratio": 1.597330927848816,
+         "design_situation": "DS2",
+         "location": 6.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 2.0
+      },
+      {
+         "no": 9.0,
+         "description": "UB 406x178x54 | 1 - S355JR | Beams"
+      },
+      {
+         "no": 10.0,
+         "description": 2.0,
+         "design_ratio": 0.12626460194587708,
+         "design_situation": "DS1",
+         "location": 6.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 3.0
+      },
+      {
+         "no": 11.0,
+         "description": 2.0,
+         "design_ratio": 0.1270599365234375,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 4.0
+      },
+      {
+         "no": 12.0,
+         "description": 2.0,
+         "design_ratio": 0.03832261264324188,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO1",
+         "design_check_type": "SP3100.00",
+         "member": 4.0
+      },
+      {
+         "no": 13.0,
+         "description": 2.0,
+         "design_ratio": 0.09813671559095383,
+         "design_situation": "DS1",
+         "location": 10.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 4.0
+      },
+      {
+         "no": 14.0,
+         "description": 2.0,
+         "design_ratio": 0.2026861011981964,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 3.0
+      },
+      {
+         "no": 15.0,
+         "description": 2.0,
+         "design_ratio": 0.21047614514827728,
+         "design_situation": "DS1",
+         "location": 10.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 4.0
+      },
+      {
+         "no": 16.0,
+         "description": 2.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 3.0
+      },
+      {
+         "no": 17.0,
+         "description": 2.0,
+         "design_ratio": 0.421234667301178,
+         "design_situation": "DS2",
+         "location": 10.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO3",
+         "design_check_type": "SE1100.00",
+         "member": 4.0
+      },
+      {
+         "no": 19.0,
+         "description": "CHS 48.4x2.5 | 1 - S355JR | Chord"
+      },
+      {
+         "no": 20.0,
+         "description": 3.0,
+         "design_ratio": 1.1338419914245605,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 5.0
+      },
+      {
+         "no": 21.0,
+         "description": 3.0,
+         "design_ratio": 1.155016541481018,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 6.0
+      },
+      {
+         "no": 22.0,
+         "description": 3.0,
+         "design_ratio": 0.014241541735827923,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 5.0
+      },
+      {
+         "no": 23.0,
+         "description": 3.0,
+         "design_ratio": 1.1477887630462646,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 5.0
+      },
+      {
+         "no": 24.0,
+         "description": 3.0,
+         "design_ratio": 1.1689633131027222,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 6.0
+      },
+      {
+         "no": 25.0,
+         "description": 3.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 5.0
+      },
+      {
+         "no": 26.0,
+         "description": 3.0,
+         "design_ratio": 0.11174435913562775,
+         "design_situation": "DS2",
+         "location": 1.4142135623730951,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 7.0
+      }
+   ],
+   [
+      {
+         "no": 1.0,
+         "description": "UC 203x203x52 | 1 - S355JR | Columns"
+      },
+      {
+         "no": 2.0,
+         "description": 1.0,
+         "design_ratio": 0.06835523992776871,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 1.0
+      },
+      {
+         "no": 3.0,
+         "description": 1.0,
+         "design_ratio": 0.1326247602701187,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO2",
+         "design_check_type": "SP3100.00",
+         "member": 2.0
+      },
+      {
+         "no": 4.0,
+         "description": 1.0,
+         "design_ratio": 0.5024670362472534,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO2",
+         "design_check_type": "SP4100.00",
+         "member": 2.0
+      },
+      {
+         "no": 5.0,
+         "description": 1.0,
+         "design_ratio": 0.5024670362472534,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO2",
+         "design_check_type": "SP6400.00",
+         "member": 2.0
+      },
+      {
+         "no": 6.0,
+         "description": 1.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 1.0
+      },
+      {
+         "no": 7.0,
+         "description": 1.0,
+         "design_ratio": 1.580980896949768,
+         "design_situation": "DS2",
+         "location": 6.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 2.0
+      },
+      {
+         "no": 9.0,
+         "description": "UB 533x210x109 | 1 - S355JR | Beams"
+      },
+      {
+         "no": 10.0,
+         "description": 2.0,
+         "design_ratio": 0.0695544108748436,
+         "design_situation": "DS1",
+         "location": 6.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 3.0
+      },
+      {
+         "no": 11.0,
+         "description": 2.0,
+         "design_ratio": 0.07012232393026352,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 4.0
+      },
+      {
+         "no": 12.0,
+         "description": 2.0,
+         "design_ratio": 0.022464631125330925,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO1",
+         "design_check_type": "SP3100.00",
+         "member": 4.0
+      },
+      {
+         "no": 13.0,
+         "description": 2.0,
+         "design_ratio": 0.05380154773592949,
+         "design_situation": "DS1",
+         "location": 10.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 4.0
+      },
+      {
+         "no": 14.0,
+         "description": 2.0,
+         "design_ratio": 0.1144857406616211,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 3.0
+      },
+      {
+         "no": 15.0,
+         "description": 2.0,
+         "design_ratio": 0.11585363745689392,
+         "design_situation": "DS1",
+         "location": 10.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 4.0
+      },
+      {
+         "no": 16.0,
+         "description": 2.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 3.0
+      },
+      {
+         "no": 17.0,
+         "description": 2.0,
+         "design_ratio": 0.18088306486606598,
+         "design_situation": "DS2",
+         "location": 10.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO3",
+         "design_check_type": "SE1100.00",
+         "member": 4.0
+      },
+      {
+         "no": 19.0,
+         "description": "CHS 76.2x4.5 | 1 - S355JR | Chord"
+      },
+      {
+         "no": 20.0,
+         "description": 3.0,
+         "design_ratio": 0.42907050251960754,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 5.0
+      },
+      {
+         "no": 21.0,
+         "description": 3.0,
+         "design_ratio": 0.4401475191116333,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 6.0
+      },
+      {
+         "no": 22.0,
+         "description": 3.0,
+         "design_ratio": 0.009076083078980446,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 5.0
+      },
+      {
+         "no": 23.0,
+         "description": 3.0,
+         "design_ratio": 0.43785184621810913,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 5.0
+      },
+      {
+         "no": 24.0,
+         "description": 3.0,
+         "design_ratio": 0.4489288628101349,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 6.0
+      },
+      {
+         "no": 25.0,
+         "description": 3.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 5.0
+      },
+      {
+         "no": 26.0,
+         "description": 3.0,
+         "design_ratio": 0.04593537747859955,
+         "design_situation": "DS2",
+         "location": 1.4142135623730951,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 9.0
+      }
+   ],
+   [
+      {
+         "no": 1.0,
+         "description": "UC 305x305x97 | 1 - S355JR | Columns"
+      },
+      {
+         "no": 2.0,
+         "description": 1.0,
+         "design_ratio": 0.03319089114665985,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 1.0
+      },
+      {
+         "no": 3.0,
+         "description": 1.0,
+         "design_ratio": 0.07983957976102829,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO2",
+         "design_check_type": "SP3100.00",
+         "member": 2.0
+      },
+      {
+         "no": 4.0,
+         "description": 1.0,
+         "design_ratio": 0.22231514751911163,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO2",
+         "design_check_type": "SP4100.00",
+         "member": 2.0
+      },
+      {
+         "no": 5.0,
+         "description": 1.0,
+         "design_ratio": 0.23697791993618011,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO2",
+         "design_check_type": "SP6400.00",
+         "member": 2.0
+      },
+      {
+         "no": 6.0,
+         "description": 1.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 1.0
+      },
+      {
+         "no": 7.0,
+         "description": 1.0,
+         "design_ratio": 0.4364262521266937,
+         "design_situation": "DS2",
+         "location": 6.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 2.0
+      },
+      {
+         "no": 9.0,
+         "description": "UB 254x146x31 | 1 - S355JR | Beams"
+      },
+      {
+         "no": 10.0,
+         "description": 2.0,
+         "design_ratio": 0.2113383561372757,
+         "design_situation": "DS1",
+         "location": 6.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 3.0
+      },
+      {
+         "no": 11.0,
+         "description": 2.0,
+         "design_ratio": 0.2151273638010025,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 4.0
+      },
+      {
+         "no": 12.0,
+         "description": 2.0,
+         "design_ratio": 0.08279450237751007,
+         "design_situation": "DS1",
+         "location": 4.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO1",
+         "design_check_type": "SP3100.00",
+         "member": 4.0
+      },
+      {
+         "no": 13.0,
+         "description": 2.0,
+         "design_ratio": 0.12876945734024048,
+         "design_situation": "DS1",
+         "location": 2.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 4.0
+      },
+      {
+         "no": 14.0,
+         "description": 2.0,
+         "design_ratio": 0.2575587034225464,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 3.0
+      },
+      {
+         "no": 15.0,
+         "description": 2.0,
+         "design_ratio": 0.3083072900772095,
+         "design_situation": "DS1",
+         "location": 10.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 4.0
+      },
+      {
+         "no": 16.0,
+         "description": 2.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 3.0
+      },
+      {
+         "no": 17.0,
+         "description": 2.0,
+         "design_ratio": 0.39996591210365295,
+         "design_situation": "DS2",
+         "location": 10.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO3",
+         "design_check_type": "SE1100.00",
+         "member": 4.0
+      },
+      {
+         "no": 19.0,
+         "description": "CHS 63.5x3 | 1 - S355JR | Chord"
+      },
+      {
+         "no": 20.0,
+         "description": 3.0,
+         "design_ratio": 0.7605370283126831,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 5.0
+      },
+      {
+         "no": 21.0,
+         "description": 3.0,
+         "design_ratio": 0.7562836408615112,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 6.0
+      },
+      {
+         "no": 22.0,
+         "description": 3.0,
+         "design_ratio": 0.010803069919347763,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 5.0
+      },
+      {
+         "no": 23.0,
+         "description": 3.0,
+         "design_ratio": 0.7710452079772949,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 5.0
+      },
+      {
+         "no": 24.0,
+         "description": 3.0,
+         "design_ratio": 0.7667918801307678,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 6.0
+      },
+      {
+         "no": 25.0,
+         "description": 3.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 5.0
+      },
+      {
+         "no": 26.0,
+         "description": 3.0,
+         "design_ratio": 0.06422673910856247,
+         "design_situation": "DS2",
+         "location": 1.4142135623730951,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 9.0
+      }
+   ],
+   [
+      {
+         "no": 1.0,
+         "description": "UC 305x305x198 | 1 - S355JR | Columns"
+      },
+      {
+         "no": 2.0,
+         "description": 1.0,
+         "design_ratio": 0.01896006427705288,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 1.0
+      },
+      {
+         "no": 3.0,
+         "description": 1.0,
+         "design_ratio": 0.040847841650247574,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO2",
+         "design_check_type": "SP3100.00",
+         "member": 2.0
+      },
+      {
+         "no": 4.0,
+         "description": 1.0,
+         "design_ratio": 0.10175412893295288,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO2",
+         "design_check_type": "SP4100.00",
+         "member": 2.0
+      },
+      {
+         "no": 5.0,
+         "description": 1.0,
+         "design_ratio": 0.10175412893295288,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO2",
+         "design_check_type": "SP6400.00",
+         "member": 2.0
+      },
+      {
+         "no": 6.0,
+         "description": 1.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 1.0
+      },
+      {
+         "no": 7.0,
+         "description": 1.0,
+         "design_ratio": 0.20481576025485992,
+         "design_situation": "DS2",
+         "location": 6.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 2.0
+      },
+      {
+         "no": 9.0,
+         "description": "UB 356x171x51 | 1 - S355JR | Beams"
+      },
+      {
+         "no": 10.0,
+         "description": 2.0,
+         "design_ratio": 0.12988398969173431,
+         "design_situation": "DS1",
+         "location": 6.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 3.0
+      },
+      {
+         "no": 11.0,
+         "description": 2.0,
+         "design_ratio": 0.1331629753112793,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 4.0
+      },
+      {
+         "no": 12.0,
+         "description": 2.0,
+         "design_ratio": 0.046799879521131516,
+         "design_situation": "DS1",
+         "location": 4.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO1",
+         "design_check_type": "SP3100.00",
+         "member": 4.0
+      },
+      {
+         "no": 13.0,
+         "description": 2.0,
+         "design_ratio": 0.06433313339948654,
+         "design_situation": "DS1",
+         "location": 2.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 4.0
+      },
+      {
+         "no": 14.0,
+         "description": 2.0,
+         "design_ratio": 0.16604739427566528,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 3.0
+      },
+      {
+         "no": 15.0,
+         "description": 2.0,
+         "design_ratio": 0.18747536838054657,
+         "design_situation": "DS1",
+         "location": 10.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 4.0
+      },
+      {
+         "no": 16.0,
+         "description": 2.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 3.0
+      },
+      {
+         "no": 17.0,
+         "description": 2.0,
+         "design_ratio": 0.21953187882900238,
+         "design_situation": "DS2",
+         "location": 10.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO3",
+         "design_check_type": "SE1100.00",
+         "member": 4.0
+      },
+      {
+         "no": 19.0,
+         "description": "CHS 88.9x4.5 | 1 - S355JR | Chord"
+      },
+      {
+         "no": 20.0,
+         "description": 3.0,
+         "design_ratio": 0.37564364075660706,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 5.0
+      },
+      {
+         "no": 21.0,
+         "description": 3.0,
+         "design_ratio": 0.37167686223983765,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 6.0
+      },
+      {
+         "no": 22.0,
+         "description": 3.0,
+         "design_ratio": 0.007728709373623133,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 5.0
+      },
+      {
+         "no": 23.0,
+         "description": 3.0,
+         "design_ratio": 0.3830775320529938,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 5.0
+      },
+      {
+         "no": 24.0,
+         "description": 3.0,
+         "design_ratio": 0.37911099195480347,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 6.0
+      },
+      {
+         "no": 25.0,
+         "description": 3.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 5.0
+      },
+      {
+         "no": 26.0,
+         "description": 3.0,
+         "design_ratio": 0.03292025625705719,
+         "design_situation": "DS2",
+         "location": 1.4142135623730951,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 8.0
+      }
+   ],
+   [
+      {
+         "no": 1.0,
+         "description": "UC 203x203x71 | 1 - S355JR | Columns"
+      },
+      {
+         "no": 2.0,
+         "description": 1.0,
+         "design_ratio": 0.052053287625312805,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 1.0
+      },
+      {
+         "no": 3.0,
+         "description": 1.0,
+         "design_ratio": 0.10392556339502335,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO2",
+         "design_check_type": "SP3100.00",
+         "member": 2.0
+      },
+      {
+         "no": 4.0,
+         "description": 1.0,
+         "design_ratio": 0.3706013262271881,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO2",
+         "design_check_type": "SP4100.00",
+         "member": 2.0
+      },
+      {
+         "no": 5.0,
+         "description": 1.0,
+         "design_ratio": 0.3706013262271881,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO2",
+         "design_check_type": "SP6400.00",
+         "member": 2.0
+      },
+      {
+         "no": 6.0,
+         "description": 1.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 1.0
+      },
+      {
+         "no": 7.0,
+         "description": 1.0,
+         "design_ratio": 1.1031084060668945,
+         "design_situation": "DS2",
+         "location": 6.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 2.0
+      },
+      {
+         "no": 9.0,
+         "description": "UB 533x210x101 | 1 - S355JR | Beams"
+      },
+      {
+         "no": 10.0,
+         "description": 2.0,
+         "design_ratio": 0.07714971899986267,
+         "design_situation": "DS1",
+         "location": 6.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 3.0
+      },
+      {
+         "no": 11.0,
+         "description": 2.0,
+         "design_ratio": 0.07782066613435745,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 4.0
+      },
+      {
+         "no": 12.0,
+         "description": 2.0,
+         "design_ratio": 0.022061120718717575,
+         "design_situation": "DS1",
+         "location": 4.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO1",
+         "design_check_type": "SP3100.00",
+         "member": 4.0
+      },
+      {
+         "no": 13.0,
+         "description": 2.0,
+         "design_ratio": 0.04426613450050354,
+         "design_situation": "DS1",
+         "location": 10.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 4.0
+      },
+      {
+         "no": 14.0,
+         "description": 2.0,
+         "design_ratio": 0.11156068742275238,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 3.0
+      },
+      {
+         "no": 15.0,
+         "description": 2.0,
+         "design_ratio": 0.11544688045978546,
+         "design_situation": "DS1",
+         "location": 10.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 4.0
+      },
+      {
+         "no": 16.0,
+         "description": 2.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 3.0
+      },
+      {
+         "no": 17.0,
+         "description": 2.0,
+         "design_ratio": 0.1381458342075348,
+         "design_situation": "DS2",
+         "location": 10.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO3",
+         "design_check_type": "SE1100.00",
+         "member": 4.0
+      },
+      {
+         "no": 19.0,
+         "description": "CHS 101.6x6 | 1 - S355JR | Chord"
+      },
+      {
+         "no": 20.0,
+         "description": 3.0,
+         "design_ratio": 0.2531591057777405,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 5.0
+      },
+      {
+         "no": 21.0,
+         "description": 3.0,
+         "design_ratio": 0.25561466813087463,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 6.0
+      },
+      {
+         "no": 22.0,
+         "description": 3.0,
+         "design_ratio": 0.006835418753325939,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 5.0
+      },
+      {
+         "no": 23.0,
+         "description": 3.0,
+         "design_ratio": 0.2596997916698456,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 5.0
+      },
+      {
+         "no": 24.0,
+         "description": 3.0,
+         "design_ratio": 0.2621552050113678,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 6.0
+      },
+      {
+         "no": 25.0,
+         "description": 3.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 5.0
+      },
+      {
+         "no": 26.0,
+         "description": 3.0,
+         "design_ratio": 0.025780120864510536,
+         "design_situation": "DS2",
+         "location": 1.4142135623730951,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 7.0
+      }
+   ],
+   [
+      {
+         "no": 1.0,
+         "description": "UC 203x203x86 | 1 - S355JR | Columns"
+      },
+      {
+         "no": 2.0,
+         "description": 1.0,
+         "design_ratio": 0.037992965430021286,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 1.0
+      },
+      {
+         "no": 3.0,
+         "description": 1.0,
+         "design_ratio": 0.0832035169005394,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO2",
+         "design_check_type": "SP3100.00",
+         "member": 2.0
+      },
+      {
+         "no": 4.0,
+         "description": 1.0,
+         "design_ratio": 0.3172985315322876,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO2",
+         "design_check_type": "SP4100.00",
+         "member": 2.0
+      },
+      {
+         "no": 5.0,
+         "description": 1.0,
+         "design_ratio": 0.3172985315322876,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO2",
+         "design_check_type": "SP6400.00",
+         "member": 2.0
+      },
+      {
+         "no": 6.0,
+         "description": 1.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 1.0
+      },
+      {
+         "no": 7.0,
+         "description": 1.0,
+         "design_ratio": 0.9401515126228333,
+         "design_situation": "DS2",
+         "location": 6.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 2.0
+      },
+      {
+         "no": 9.0,
+         "description": "UB 305x102x28 | 1 - S355JR | Beams"
+      },
+      {
+         "no": 10.0,
+         "description": 2.0,
+         "design_ratio": 0.2378484606742859,
+         "design_situation": "DS1",
+         "location": 6.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 3.0
+      },
+      {
+         "no": 11.0,
+         "description": 2.0,
+         "design_ratio": 0.24016956984996796,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 4.0
+      },
+      {
+         "no": 12.0,
+         "description": 2.0,
+         "design_ratio": 0.06592465937137604,
+         "design_situation": "DS1",
+         "location": 4.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO1",
+         "design_check_type": "SP3100.00",
+         "member": 4.0
+      },
+      {
+         "no": 13.0,
+         "description": 2.0,
+         "design_ratio": 0.12479901313781738,
+         "design_situation": "DS1",
+         "location": 2.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 4.0
+      },
+      {
+         "no": 14.0,
+         "description": 2.0,
+         "design_ratio": 0.2874631881713867,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 3.0
+      },
+      {
+         "no": 15.0,
+         "description": 2.0,
+         "design_ratio": 0.3348539173603058,
+         "design_situation": "DS1",
+         "location": 10.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 4.0
+      },
+      {
+         "no": 16.0,
+         "description": 2.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 3.0
+      },
+      {
+         "no": 17.0,
+         "description": 2.0,
+         "design_ratio": 0.35868027806282043,
+         "design_situation": "DS2",
+         "location": 10.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO3",
+         "design_check_type": "SE1100.00",
+         "member": 4.0
+      },
+      {
+         "no": 19.0,
+         "description": "CHS 63.5x4.5 | 1 - S355JR | Chord"
+      },
+      {
+         "no": 20.0,
+         "description": 3.0,
+         "design_ratio": 0.517551064491272,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 5.0
+      },
+      {
+         "no": 21.0,
+         "description": 3.0,
+         "design_ratio": 0.5151878595352173,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 6.0
+      },
+      {
+         "no": 22.0,
+         "description": 3.0,
+         "design_ratio": 0.011074688285589218,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO2",
+         "design_check_type": "SP4100.00",
+         "member": 10.0
+      },
+      {
+         "no": 23.0,
+         "description": 3.0,
+         "design_ratio": 0.5283311009407043,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 5.0
+      },
+      {
+         "no": 24.0,
+         "description": 3.0,
+         "design_ratio": 0.5259679555892944,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 6.0
+      },
+      {
+         "no": 25.0,
+         "description": 3.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 5.0
+      },
+      {
+         "no": 26.0,
+         "description": 3.0,
+         "design_ratio": 0.06744519621133804,
+         "design_situation": "DS2",
+         "location": 1.4142135623730951,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO3",
+         "design_check_type": "SE1100.00",
+         "member": 7.0
+      }
+   ],
+   [
+      {
+         "no": 1.0,
+         "description": "UC 152x152x37 | 1 - S355JR | Columns"
+      },
+      {
+         "no": 2.0,
+         "description": 1.0,
+         "design_ratio": 0.08351963758468628,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 1.0
+      },
+      {
+         "no": 3.0,
+         "description": 1.0,
+         "design_ratio": 0.1674293875694275,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO2",
+         "design_check_type": "SP3100.00",
+         "member": 2.0
+      },
+      {
+         "no": 4.0,
+         "description": 1.0,
+         "design_ratio": 0.9264569878578186,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO2",
+         "design_check_type": "SP4100.00",
+         "member": 2.0
+      },
+      {
+         "no": 5.0,
+         "description": 1.0,
+         "design_ratio": 0.9264569878578186,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO2",
+         "design_check_type": "SP6400.00",
+         "member": 2.0
+      },
+      {
+         "no": 6.0,
+         "description": 1.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 1.0
+      },
+      {
+         "no": 7.0,
+         "description": 1.0,
+         "design_ratio": 3.755084991455078,
+         "design_situation": "DS2",
+         "location": 6.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 2.0
+      },
+      {
+         "no": 9.0,
+         "description": "UB 305x102x33 | 1 - S355JR | Beams"
+      },
+      {
+         "no": 10.0,
+         "description": 2.0,
+         "design_ratio": 0.21746934950351715,
+         "design_situation": "DS1",
+         "location": 6.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 3.0
+      },
+      {
+         "no": 11.0,
+         "description": 2.0,
+         "design_ratio": 0.21842606365680695,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 4.0
+      },
+      {
+         "no": 12.0,
+         "description": 2.0,
+         "design_ratio": 0.061029065400362015,
+         "design_situation": "DS1",
+         "location": 4.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO1",
+         "design_check_type": "SP3100.00",
+         "member": 4.0
+      },
+      {
+         "no": 13.0,
+         "description": 2.0,
+         "design_ratio": 0.10309195518493652,
+         "design_situation": "DS1",
+         "location": 2.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 4.0
+      },
+      {
+         "no": 14.0,
+         "description": 2.0,
+         "design_ratio": 0.2555830180644989,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 3.0
+      },
+      {
+         "no": 15.0,
+         "description": 2.0,
+         "design_ratio": 0.29625165462493896,
+         "design_situation": "DS1",
+         "location": 10.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 4.0
+      },
+      {
+         "no": 16.0,
+         "description": 2.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 3.0
+      },
+      {
+         "no": 17.0,
+         "description": 2.0,
+         "design_ratio": 0.26999568939208984,
+         "design_situation": "DS2",
+         "location": 10.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO3",
+         "design_check_type": "SE1100.00",
+         "member": 4.0
+      },
+      {
+         "no": 19.0,
+         "description": "CHS 101.6x6 | 1 - S355JR | Chord"
+      },
+      {
+         "no": 20.0,
+         "description": 3.0,
+         "design_ratio": 0.24550670385360718,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 5.0
+      },
+      {
+         "no": 21.0,
+         "description": 3.0,
+         "design_ratio": 0.24408625066280365,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 6.0
+      },
+      {
+         "no": 22.0,
+         "description": 3.0,
+         "design_ratio": 0.006835418753325939,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 5.0
+      },
+      {
+         "no": 23.0,
+         "description": 3.0,
+         "design_ratio": 0.25204721093177795,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 5.0
+      },
+      {
+         "no": 24.0,
+         "description": 3.0,
+         "design_ratio": 0.2506267726421356,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 6.0
+      },
+      {
+         "no": 25.0,
+         "description": 3.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 5.0
+      },
+      {
+         "no": 26.0,
+         "description": 3.0,
+         "design_ratio": 0.025788182392716408,
+         "design_situation": "DS2",
+         "location": 1.4142135623730951,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 6.0
+      }
+   ],
+   [
+      {
+         "no": 1.0,
+         "description": "UC 305x305x240 | 1 - S355JR | Columns"
+      },
+      {
+         "no": 2.0,
+         "description": 1.0,
+         "design_ratio": 0.015438389964401722,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 1.0
+      },
+      {
+         "no": 3.0,
+         "description": 1.0,
+         "design_ratio": 0.03777417540550232,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO2",
+         "design_check_type": "SP3100.00",
+         "member": 2.0
+      },
+      {
+         "no": 4.0,
+         "description": 1.0,
+         "design_ratio": 0.09518098086118698,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO2",
+         "design_check_type": "SP4100.00",
+         "member": 2.0
+      },
+      {
+         "no": 5.0,
+         "description": 1.0,
+         "design_ratio": 0.09518098086118698,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO2",
+         "design_check_type": "SP6400.00",
+         "member": 2.0
+      },
+      {
+         "no": 6.0,
+         "description": 1.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 1.0
+      },
+      {
+         "no": 7.0,
+         "description": 1.0,
+         "design_ratio": 0.1922457069158554,
+         "design_situation": "DS2",
+         "location": 6.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 2.0
+      },
+      {
+         "no": 9.0,
+         "description": "UB 203x133x25 | 1 - S355JR | Beams"
+      },
+      {
+         "no": 10.0,
+         "description": 2.0,
+         "design_ratio": 0.22487875819206238,
+         "design_situation": "DS1",
+         "location": 6.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 3.0
+      },
+      {
+         "no": 11.0,
+         "description": 2.0,
+         "design_ratio": 0.23671762645244598,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 4.0
+      },
+      {
+         "no": 12.0,
+         "description": 2.0,
+         "design_ratio": 0.1098628044128418,
+         "design_situation": "DS1",
+         "location": 4.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO1",
+         "design_check_type": "SP3100.00",
+         "member": 4.0
+      },
+      {
+         "no": 13.0,
+         "description": 2.0,
+         "design_ratio": 0.195759579539299,
+         "design_situation": "DS1",
+         "location": 4.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 4.0
+      },
+      {
+         "no": 14.0,
+         "description": 2.0,
+         "design_ratio": 0.2644558250904083,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 3.0
+      },
+      {
+         "no": 15.0,
+         "description": 2.0,
+         "design_ratio": 0.35813164710998535,
+         "design_situation": "DS1",
+         "location": 4.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 4.0
+      },
+      {
+         "no": 16.0,
+         "description": 2.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 3.0
+      },
+      {
+         "no": 17.0,
+         "description": 2.0,
+         "design_ratio": 0.4219041168689728,
+         "design_situation": "DS2",
+         "location": 10.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO3",
+         "design_check_type": "SE1100.00",
+         "member": 4.0
+      },
+      {
+         "no": 19.0,
+         "description": "CHS 63.5x3 | 1 - S355JR | Chord"
+      },
+      {
+         "no": 20.0,
+         "description": 3.0,
+         "design_ratio": 0.761871337890625,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 5.0
+      },
+      {
+         "no": 21.0,
+         "description": 3.0,
+         "design_ratio": 0.7550696134567261,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 6.0
+      },
+      {
+         "no": 22.0,
+         "description": 3.0,
+         "design_ratio": 0.010803069919347763,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 5.0
+      },
+      {
+         "no": 23.0,
+         "description": 3.0,
+         "design_ratio": 0.7723795175552368,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 5.0
+      },
+      {
+         "no": 24.0,
+         "description": 3.0,
+         "design_ratio": 0.7655777931213379,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 6.0
+      },
+      {
+         "no": 25.0,
+         "description": 3.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 5.0
+      },
+      {
+         "no": 26.0,
+         "description": 3.0,
+         "design_ratio": 0.06422638148069382,
+         "design_situation": "DS2",
+         "location": 1.4142135623730951,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO3",
+         "design_check_type": "SE1100.00",
+         "member": 9.0
+      }
+   ],
+   [
+      {
+         "no": 1.0,
+         "description": "UC 305x305x158 | 1 - S355JR | Columns"
+      },
+      {
+         "no": 2.0,
+         "description": 1.0,
+         "design_ratio": 0.02243213728070259,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 1.0
+      },
+      {
+         "no": 3.0,
+         "description": 1.0,
+         "design_ratio": 0.05046539381146431,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO2",
+         "design_check_type": "SP3100.00",
+         "member": 2.0
+      },
+      {
+         "no": 4.0,
+         "description": 1.0,
+         "design_ratio": 0.12842142581939697,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO2",
+         "design_check_type": "SP4100.00",
+         "member": 2.0
+      },
+      {
+         "no": 5.0,
+         "description": 1.0,
+         "design_ratio": 0.12842142581939697,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO2",
+         "design_check_type": "SP6400.00",
+         "member": 2.0
+      },
+      {
+         "no": 6.0,
+         "description": 1.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 1.0
+      },
+      {
+         "no": 7.0,
+         "description": 1.0,
+         "design_ratio": 0.26326844096183777,
+         "design_situation": "DS2",
+         "location": 6.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 2.0
+      },
+      {
+         "no": 9.0,
+         "description": "UB 305x165x40 | 1 - S355JR | Beams"
+      },
+      {
+         "no": 10.0,
+         "description": 2.0,
+         "design_ratio": 0.15994831919670105,
+         "design_situation": "DS1",
+         "location": 6.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 3.0
+      },
+      {
+         "no": 11.0,
+         "description": 2.0,
+         "design_ratio": 0.16375042498111725,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 4.0
+      },
+      {
+         "no": 12.0,
+         "description": 2.0,
+         "design_ratio": 0.06586559861898422,
+         "design_situation": "DS1",
+         "location": 4.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO1",
+         "design_check_type": "SP3100.00",
+         "member": 4.0
+      },
+      {
+         "no": 13.0,
+         "description": 2.0,
+         "design_ratio": 0.09509887546300888,
+         "design_situation": "DS1",
+         "location": 2.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 4.0
+      },
+      {
+         "no": 14.0,
+         "description": 2.0,
+         "design_ratio": 0.21380296349525452,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 3.0
+      },
+      {
+         "no": 15.0,
+         "description": 2.0,
+         "design_ratio": 0.24237465858459473,
+         "design_situation": "DS1",
+         "location": 10.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 4.0
+      },
+      {
+         "no": 16.0,
+         "description": 2.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 3.0
+      },
+      {
+         "no": 17.0,
+         "description": 2.0,
+         "design_ratio": 0.3848375082015991,
+         "design_situation": "DS2",
+         "location": 10.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO3",
+         "design_check_type": "SE1100.00",
+         "member": 4.0
+      },
+      {
+         "no": 19.0,
+         "description": "CHS 63.5x2.5 | 1 - S355JR | Chord"
+      },
+      {
+         "no": 20.0,
+         "description": 3.0,
+         "design_ratio": 0.8981478810310364,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 5.0
+      },
+      {
+         "no": 21.0,
+         "description": 3.0,
+         "design_ratio": 0.8962216377258301,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 6.0
+      },
+      {
+         "no": 22.0,
+         "description": 3.0,
+         "design_ratio": 0.010737855918705463,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 5.0
+      },
+      {
+         "no": 23.0,
+         "description": 3.0,
+         "design_ratio": 0.908591091632843,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 5.0
+      },
+      {
+         "no": 24.0,
+         "description": 3.0,
+         "design_ratio": 0.9066647291183472,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 6.0
+      },
+      {
+         "no": 25.0,
+         "description": 3.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 5.0
+      },
+      {
+         "no": 26.0,
+         "description": 3.0,
+         "design_ratio": 0.06341564655303955,
+         "design_situation": "DS2",
+         "location": 1.4142135623730951,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 10.0
+      }
+   ],
+   [
+      {
+         "no": 1.0,
+         "description": "UC 305x305x137 | 1 - S355JR | Columns"
+      },
+      {
+         "no": 2.0,
+         "description": 1.0,
+         "design_ratio": 0.026425231248140335,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 1.0
+      },
+      {
+         "no": 3.0,
+         "description": 1.0,
+         "design_ratio": 0.055632852017879486,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO2",
+         "design_check_type": "SP3100.00",
+         "member": 2.0
+      },
+      {
+         "no": 4.0,
+         "description": 1.0,
+         "design_ratio": 0.14143653213977814,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO2",
+         "design_check_type": "SP4100.00",
+         "member": 2.0
+      },
+      {
+         "no": 5.0,
+         "description": 1.0,
+         "design_ratio": 0.14143653213977814,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO2",
+         "design_check_type": "SP6400.00",
+         "member": 2.0
+      },
+      {
+         "no": 6.0,
+         "description": 1.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 1.0
+      },
+      {
+         "no": 7.0,
+         "description": 1.0,
+         "design_ratio": 0.29061174392700195,
+         "design_situation": "DS2",
+         "location": 6.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 2.0
+      },
+      {
+         "no": 9.0,
+         "description": "UB 406x178x60 | 1 - S355JR | Beams"
+      },
+      {
+         "no": 10.0,
+         "description": 2.0,
+         "design_ratio": 0.11439778655767441,
+         "design_situation": "DS1",
+         "location": 6.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 3.0
+      },
+      {
+         "no": 11.0,
+         "description": 2.0,
+         "design_ratio": 0.1162889301776886,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 4.0
+      },
+      {
+         "no": 12.0,
+         "description": 2.0,
+         "design_ratio": 0.03656785190105438,
+         "design_situation": "DS1",
+         "location": 4.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO1",
+         "design_check_type": "SP3100.00",
+         "member": 4.0
+      },
+      {
+         "no": 13.0,
+         "description": 2.0,
+         "design_ratio": 0.06286872923374176,
+         "design_situation": "DS1",
+         "location": 10.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 4.0
+      },
+      {
+         "no": 14.0,
+         "description": 2.0,
+         "design_ratio": 0.15710076689720154,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 3.0
+      },
+      {
+         "no": 15.0,
+         "description": 2.0,
+         "design_ratio": 0.1697273552417755,
+         "design_situation": "DS1",
+         "location": 10.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 4.0
+      },
+      {
+         "no": 16.0,
+         "description": 2.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 3.0
+      },
+      {
+         "no": 17.0,
+         "description": 2.0,
+         "design_ratio": 0.2297026365995407,
+         "design_situation": "DS2",
+         "location": 10.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO3",
+         "design_check_type": "SE1100.00",
+         "member": 4.0
+      },
+      {
+         "no": 19.0,
+         "description": "CHS 88.9x3.5 | 1 - S355JR | Chord"
+      },
+      {
+         "no": 20.0,
+         "description": 3.0,
+         "design_ratio": 0.46837761998176575,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 5.0
+      },
+      {
+         "no": 21.0,
+         "description": 3.0,
+         "design_ratio": 0.46716561913490295,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 6.0
+      },
+      {
+         "no": 22.0,
+         "description": 3.0,
+         "design_ratio": 0.00767698185518384,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 9.0
+      },
+      {
+         "no": 23.0,
+         "description": 3.0,
+         "design_ratio": 0.4757595956325531,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 5.0
+      },
+      {
+         "no": 24.0,
+         "description": 3.0,
+         "design_ratio": 0.47454798221588135,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 6.0
+      },
+      {
+         "no": 25.0,
+         "description": 3.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 5.0
+      },
+      {
+         "no": 26.0,
+         "description": 3.0,
+         "design_ratio": 0.03232395276427269,
+         "design_situation": "DS2",
+         "location": 1.4142135623730951,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO3",
+         "design_check_type": "SE1100.00",
+         "member": 9.0
+      }
+   ],
+   [
+      {
+         "no": 1.0,
+         "description": "UC 305x305x137 | 1 - S355JR | Columns"
+      },
+      {
+         "no": 2.0,
+         "description": 1.0,
+         "design_ratio": 0.02576029673218727,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 1.0
+      },
+      {
+         "no": 3.0,
+         "description": 1.0,
+         "design_ratio": 0.05801898241043091,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO2",
+         "design_check_type": "SP3100.00",
+         "member": 2.0
+      },
+      {
+         "no": 4.0,
+         "description": 1.0,
+         "design_ratio": 0.14750276505947113,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO2",
+         "design_check_type": "SP4100.00",
+         "member": 2.0
+      },
+      {
+         "no": 5.0,
+         "description": 1.0,
+         "design_ratio": 0.14750276505947113,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO2",
+         "design_check_type": "SP6400.00",
+         "member": 2.0
+      },
+      {
+         "no": 6.0,
+         "description": 1.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 1.0
+      },
+      {
+         "no": 7.0,
+         "description": 1.0,
+         "design_ratio": 0.30560243129730225,
+         "design_situation": "DS2",
+         "location": 6.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 2.0
+      },
+      {
+         "no": 9.0,
+         "description": "UB 305x165x40 | 1 - S355JR | Beams"
+      },
+      {
+         "no": 10.0,
+         "description": 2.0,
+         "design_ratio": 0.16673021018505096,
+         "design_situation": "DS1",
+         "location": 6.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 3.0
+      },
+      {
+         "no": 11.0,
+         "description": 2.0,
+         "design_ratio": 0.17020542919635773,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 4.0
+      },
+      {
+         "no": 12.0,
+         "description": 2.0,
+         "design_ratio": 0.06942487508058548,
+         "design_situation": "DS1",
+         "location": 4.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO1",
+         "design_check_type": "SP3100.00",
+         "member": 4.0
+      },
+      {
+         "no": 13.0,
+         "description": 2.0,
+         "design_ratio": 0.08137358725070953,
+         "design_situation": "DS1",
+         "location": 2.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 4.0
+      },
+      {
+         "no": 14.0,
+         "description": 2.0,
+         "design_ratio": 0.19886983931064606,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 3.0
+      },
+      {
+         "no": 15.0,
+         "description": 2.0,
+         "design_ratio": 0.2322363406419754,
+         "design_situation": "DS1",
+         "location": 10.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 4.0
+      },
+      {
+         "no": 16.0,
+         "description": 2.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 3.0
+      },
+      {
+         "no": 17.0,
+         "description": 2.0,
+         "design_ratio": 0.22318510711193085,
+         "design_situation": "DS2",
+         "location": 10.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO3",
+         "design_check_type": "SE1100.00",
+         "member": 4.0
+      },
+      {
+         "no": 19.0,
+         "description": "CHS 101.6x6 | 1 - S355JR | Chord"
+      },
+      {
+         "no": 20.0,
+         "description": 3.0,
+         "design_ratio": 0.24969395995140076,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 5.0
+      },
+      {
+         "no": 21.0,
+         "description": 3.0,
+         "design_ratio": 0.24633873999118805,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 6.0
+      },
+      {
+         "no": 22.0,
+         "description": 3.0,
+         "design_ratio": 0.006835418753325939,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 5.0
+      },
+      {
+         "no": 23.0,
+         "description": 3.0,
+         "design_ratio": 0.25623464584350586,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 5.0
+      },
+      {
+         "no": 24.0,
+         "description": 3.0,
+         "design_ratio": 0.25287941098213196,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 6.0
+      },
+      {
+         "no": 25.0,
+         "description": 3.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 5.0
+      },
+      {
+         "no": 26.0,
+         "description": 3.0,
+         "design_ratio": 0.025779884308576584,
+         "design_situation": "DS2",
+         "location": 1.4142135623730951,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 5.0
+      }
+   ],
+   [
+      {
+         "no": 1.0,
+         "description": "UC 254x254x132 | 1 - S355JR | Columns"
+      },
+      {
+         "no": 2.0,
+         "description": 1.0,
+         "design_ratio": 0.027592733502388,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 1.0
+      },
+      {
+         "no": 3.0,
+         "description": 1.0,
+         "design_ratio": 0.056129783391952515,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO2",
+         "design_check_type": "SP3100.00",
+         "member": 2.0
+      },
+      {
+         "no": 4.0,
+         "description": 1.0,
+         "design_ratio": 0.16753828525543213,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO2",
+         "design_check_type": "SP4100.00",
+         "member": 2.0
+      },
+      {
+         "no": 5.0,
+         "description": 1.0,
+         "design_ratio": 0.16753828525543213,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO2",
+         "design_check_type": "SP6400.00",
+         "member": 2.0
+      },
+      {
+         "no": 6.0,
+         "description": 1.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 1.0
+      },
+      {
+         "no": 7.0,
+         "description": 1.0,
+         "design_ratio": 0.4018559753894806,
+         "design_situation": "DS2",
+         "location": 6.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 2.0
+      },
+      {
+         "no": 9.0,
+         "description": "UB 356x171x67 | 1 - S355JR | Beams"
+      },
+      {
+         "no": 10.0,
+         "description": 2.0,
+         "design_ratio": 0.10607758909463882,
+         "design_situation": "DS1",
+         "location": 6.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 3.0
+      },
+      {
+         "no": 11.0,
+         "description": 2.0,
+         "design_ratio": 0.10744142532348633,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 4.0
+      },
+      {
+         "no": 12.0,
+         "description": 2.0,
+         "design_ratio": 0.035725872963666916,
+         "design_situation": "DS1",
+         "location": 4.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO1",
+         "design_check_type": "SP3100.00",
+         "member": 4.0
+      },
+      {
+         "no": 13.0,
+         "description": 2.0,
+         "design_ratio": 0.06025265157222748,
+         "design_situation": "DS1",
+         "location": 10.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 4.0
+      },
+      {
+         "no": 14.0,
+         "description": 2.0,
+         "design_ratio": 0.1465609073638916,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 3.0
+      },
+      {
+         "no": 15.0,
+         "description": 2.0,
+         "design_ratio": 0.15865617990493774,
+         "design_situation": "DS1",
+         "location": 10.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 4.0
+      },
+      {
+         "no": 16.0,
+         "description": 2.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 3.0
+      },
+      {
+         "no": 17.0,
+         "description": 2.0,
+         "design_ratio": 0.2446507066488266,
+         "design_situation": "DS2",
+         "location": 10.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO3",
+         "design_check_type": "SE1100.00",
+         "member": 4.0
+      },
+      {
+         "no": 19.0,
+         "description": "CHS 88.9x3 | 1 - S355JR | Chord"
+      },
+      {
+         "no": 20.0,
+         "description": 3.0,
+         "design_ratio": 0.5509584546089172,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 5.0
+      },
+      {
+         "no": 21.0,
+         "description": 3.0,
+         "design_ratio": 0.5486419796943665,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 6.0
+      },
+      {
+         "no": 22.0,
+         "description": 3.0,
+         "design_ratio": 0.007641134783625603,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 5.0
+      },
+      {
+         "no": 23.0,
+         "description": 3.0,
+         "design_ratio": 0.5583047866821289,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 5.0
+      },
+      {
+         "no": 24.0,
+         "description": 3.0,
+         "design_ratio": 0.5559883117675781,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 6.0
+      },
+      {
+         "no": 25.0,
+         "description": 3.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 5.0
+      },
+      {
+         "no": 26.0,
+         "description": 3.0,
+         "design_ratio": 0.031975626945495605,
+         "design_situation": "DS2",
+         "location": 1.4142135623730951,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 6.0
+      }
+   ],
+   [
+      {
+         "no": 1.0,
+         "description": "UC 152x152x30 | 1 - S355JR | Columns"
+      },
+      {
+         "no": 2.0,
+         "description": 1.0,
+         "design_ratio": 0.1009470671415329,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 1.0
+      },
+      {
+         "no": 3.0,
+         "description": 1.0,
+         "design_ratio": 0.21079042553901672,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO2",
+         "design_check_type": "SP3100.00",
+         "member": 2.0
+      },
+      {
+         "no": 4.0,
+         "description": 1.0,
+         "design_ratio": 1.15078866481781,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO2",
+         "design_check_type": "SP4100.00",
+         "member": 2.0
+      },
+      {
+         "no": 5.0,
+         "description": 1.0,
+         "design_ratio": 1.15078866481781,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO2",
+         "design_check_type": "SP6400.00",
+         "member": 2.0
+      },
+      {
+         "no": 6.0,
+         "description": 1.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 1.0
+      },
+      {
+         "no": 7.0,
+         "description": 1.0,
+         "design_ratio": 4.726011753082275,
+         "design_situation": "DS2",
+         "location": 6.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 2.0
+      },
+      {
+         "no": 9.0,
+         "description": "UB 305x102x33 | 1 - S355JR | Beams"
+      },
+      {
+         "no": 10.0,
+         "description": 2.0,
+         "design_ratio": 0.2138301581144333,
+         "design_situation": "DS1",
+         "location": 6.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 3.0
+      },
+      {
+         "no": 11.0,
+         "description": 2.0,
+         "design_ratio": 0.21467243134975433,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 4.0
+      },
+      {
+         "no": 12.0,
+         "description": 2.0,
+         "design_ratio": 0.05958098545670509,
+         "design_situation": "DS1",
+         "location": 4.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO1",
+         "design_check_type": "SP3100.00",
+         "member": 4.0
+      },
+      {
+         "no": 13.0,
+         "description": 2.0,
+         "design_ratio": 0.11129343509674072,
+         "design_situation": "DS1",
+         "location": 2.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 4.0
+      },
+      {
+         "no": 14.0,
+         "description": 2.0,
+         "design_ratio": 0.2642953097820282,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 3.0
+      },
+      {
+         "no": 15.0,
+         "description": 2.0,
+         "design_ratio": 0.3018288016319275,
+         "design_situation": "DS1",
+         "location": 10.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 4.0
+      },
+      {
+         "no": 16.0,
+         "description": 2.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 3.0
+      },
+      {
+         "no": 17.0,
+         "description": 2.0,
+         "design_ratio": 0.36374419927597046,
+         "design_situation": "DS2",
+         "location": 10.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO3",
+         "design_check_type": "SE1100.00",
+         "member": 4.0
+      },
+      {
+         "no": 19.0,
+         "description": "CHS 76.2x3 | 1 - S355JR | Chord"
+      },
+      {
+         "no": 20.0,
+         "description": 3.0,
+         "design_ratio": 0.623018741607666,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 5.0
+      },
+      {
+         "no": 21.0,
+         "description": 3.0,
+         "design_ratio": 0.6244416832923889,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 6.0
+      },
+      {
+         "no": 22.0,
+         "description": 3.0,
+         "design_ratio": 0.008934871293604374,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 5.0
+      },
+      {
+         "no": 23.0,
+         "description": 3.0,
+         "design_ratio": 0.6316587328910828,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 5.0
+      },
+      {
+         "no": 24.0,
+         "description": 3.0,
+         "design_ratio": 0.6330817341804504,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 6.0
+      },
+      {
+         "no": 25.0,
+         "description": 3.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 5.0
+      },
+      {
+         "no": 26.0,
+         "description": 3.0,
+         "design_ratio": 0.04434649273753166,
+         "design_situation": "DS2",
+         "location": 1.4142135623730951,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 9.0
+      }
+   ],
+   [
+      {
+         "no": 1.0,
+         "description": "UC 305x305x240 | 1 - S355JR | Columns"
+      },
+      {
+         "no": 2.0,
+         "description": 1.0,
+         "design_ratio": 0.015874510630965233,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 1.0
+      },
+      {
+         "no": 3.0,
+         "description": 1.0,
+         "design_ratio": 0.034604478627443314,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO2",
+         "design_check_type": "SP3100.00",
+         "member": 2.0
+      },
+      {
+         "no": 4.0,
+         "description": 1.0,
+         "design_ratio": 0.08719418942928314,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO2",
+         "design_check_type": "SP4100.00",
+         "member": 2.0
+      },
+      {
+         "no": 5.0,
+         "description": 1.0,
+         "design_ratio": 0.08719418942928314,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO2",
+         "design_check_type": "SP6400.00",
+         "member": 2.0
+      },
+      {
+         "no": 6.0,
+         "description": 1.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 1.0
+      },
+      {
+         "no": 7.0,
+         "description": 1.0,
+         "design_ratio": 0.1736225187778473,
+         "design_situation": "DS2",
+         "location": 6.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 2.0
+      },
+      {
+         "no": 9.0,
+         "description": "UB 254x146x43 | 1 - S355JR | Beams"
+      },
+      {
+         "no": 10.0,
+         "description": 2.0,
+         "design_ratio": 0.1450950801372528,
+         "design_situation": "DS1",
+         "location": 6.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 3.0
+      },
+      {
+         "no": 11.0,
+         "description": 2.0,
+         "design_ratio": 0.1501089185476303,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 4.0
+      },
+      {
+         "no": 12.0,
+         "description": 2.0,
+         "design_ratio": 0.06579464673995972,
+         "design_situation": "DS1",
+         "location": 4.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO1",
+         "design_check_type": "SP3100.00",
+         "member": 4.0
+      },
+      {
+         "no": 13.0,
+         "description": 2.0,
+         "design_ratio": 0.09853845089673996,
+         "design_situation": "DS1",
+         "location": 2.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 4.0
+      },
+      {
+         "no": 14.0,
+         "description": 2.0,
+         "design_ratio": 0.19133709371089935,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 3.0
+      },
+      {
+         "no": 15.0,
+         "description": 2.0,
+         "design_ratio": 0.22580218315124512,
+         "design_situation": "DS1",
+         "location": 10.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 4.0
+      },
+      {
+         "no": 16.0,
+         "description": 2.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 3.0
+      },
+      {
+         "no": 17.0,
+         "description": 2.0,
+         "design_ratio": 0.3897228240966797,
+         "design_situation": "DS2",
+         "location": 10.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO3",
+         "design_check_type": "SE1100.00",
+         "member": 4.0
+      },
+      {
+         "no": 19.0,
+         "description": "CHS 60.3x2.5 | 1 - S355JR | Chord"
+      },
+      {
+         "no": 20.0,
+         "description": 3.0,
+         "design_ratio": 0.9645101428031921,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 5.0
+      },
+      {
+         "no": 21.0,
+         "description": 3.0,
+         "design_ratio": 0.9581021666526794,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 6.0
+      },
+      {
+         "no": 22.0,
+         "description": 3.0,
+         "design_ratio": 0.0113217793405056,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 5.0
+      },
+      {
+         "no": 23.0,
+         "description": 3.0,
+         "design_ratio": 0.9755368828773499,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 5.0
+      },
+      {
+         "no": 24.0,
+         "description": 3.0,
+         "design_ratio": 0.9691296815872192,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 6.0
+      },
+      {
+         "no": 25.0,
+         "description": 3.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 5.0
+      },
+      {
+         "no": 26.0,
+         "description": 3.0,
+         "design_ratio": 0.07052359730005264,
+         "design_situation": "DS2",
+         "location": 1.4142135623730951,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 8.0
+      }
+   ],
+   [
+      {
+         "no": 1.0,
+         "description": "UC 305x305x118 | 1 - S355JR | Columns"
+      },
+      {
+         "no": 2.0,
+         "description": 1.0,
+         "design_ratio": 0.02830866537988186,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 1.0
+      },
+      {
+         "no": 3.0,
+         "description": 1.0,
+         "design_ratio": 0.06997422128915787,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO2",
+         "design_check_type": "SP3100.00",
+         "member": 2.0
+      },
+      {
+         "no": 4.0,
+         "description": 1.0,
+         "design_ratio": 0.17813435196876526,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO2",
+         "design_check_type": "SP4100.00",
+         "member": 2.0
+      },
+      {
+         "no": 5.0,
+         "description": 1.0,
+         "design_ratio": 0.17813435196876526,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO2",
+         "design_check_type": "SP6400.00",
+         "member": 2.0
+      },
+      {
+         "no": 6.0,
+         "description": 1.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 1.0
+      },
+      {
+         "no": 7.0,
+         "description": 1.0,
+         "design_ratio": 0.37471291422843933,
+         "design_situation": "DS2",
+         "location": 6.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 2.0
+      },
+      {
+         "no": 9.0,
+         "description": "UB 305x102x25 | 1 - S355JR | Beams"
+      },
+      {
+         "no": 10.0,
+         "description": 2.0,
+         "design_ratio": 0.2558659315109253,
+         "design_situation": "DS1",
+         "location": 6.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 3.0
+      },
+      {
+         "no": 11.0,
+         "description": 2.0,
+         "design_ratio": 0.26242777705192566,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 4.0
+      },
+      {
+         "no": 12.0,
+         "description": 2.0,
+         "design_ratio": 0.07044637948274612,
+         "design_situation": "DS1",
+         "location": 4.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO1",
+         "design_check_type": "SP3100.00",
+         "member": 4.0
+      },
+      {
+         "no": 13.0,
+         "description": 2.0,
+         "design_ratio": 0.14707782864570618,
+         "design_situation": "DS1",
+         "location": 2.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 4.0
+      },
+      {
+         "no": 14.0,
+         "description": 2.0,
+         "design_ratio": 0.3085591197013855,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 3.0
+      },
+      {
+         "no": 15.0,
+         "description": 2.0,
+         "design_ratio": 0.371109277009964,
+         "design_situation": "DS1",
+         "location": 10.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 4.0
+      },
+      {
+         "no": 16.0,
+         "description": 2.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 3.0
+      },
+      {
+         "no": 17.0,
+         "description": 2.0,
+         "design_ratio": 0.390634685754776,
+         "design_situation": "DS2",
+         "location": 10.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO3",
+         "design_check_type": "SE1100.00",
+         "member": 4.0
+      },
+      {
+         "no": 19.0,
+         "description": "CHS 63.5x4 | 1 - S355JR | Chord"
+      },
+      {
+         "no": 20.0,
+         "description": 3.0,
+         "design_ratio": 0.5743838548660278,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 5.0
+      },
+      {
+         "no": 21.0,
+         "description": 3.0,
+         "design_ratio": 0.5711079239845276,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 6.0
+      },
+      {
+         "no": 22.0,
+         "description": 3.0,
+         "design_ratio": 0.01098192110657692,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 12.0
+      },
+      {
+         "no": 23.0,
+         "description": 3.0,
+         "design_ratio": 0.5850712060928345,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 5.0
+      },
+      {
+         "no": 24.0,
+         "description": 3.0,
+         "design_ratio": 0.5817948579788208,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 6.0
+      },
+      {
+         "no": 25.0,
+         "description": 3.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 5.0
+      },
+      {
+         "no": 26.0,
+         "description": 3.0,
+         "design_ratio": 0.06650669872760773,
+         "design_situation": "DS2",
+         "location": 1.4142135623730951,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 10.0
+      }
+   ],
+   [
+      {
+         "no": 1.0,
+         "description": "UC 305x305x240 | 1 - S355JR | Columns"
+      },
+      {
+         "no": 2.0,
+         "description": 1.0,
+         "design_ratio": 0.01592165045440197,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 1.0
+      },
+      {
+         "no": 3.0,
+         "description": 1.0,
+         "design_ratio": 0.03420332074165344,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO2",
+         "design_check_type": "SP3100.00",
+         "member": 2.0
+      },
+      {
+         "no": 4.0,
+         "description": 1.0,
+         "design_ratio": 0.08618339896202087,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO2",
+         "design_check_type": "SP4100.00",
+         "member": 2.0
+      },
+      {
+         "no": 5.0,
+         "description": 1.0,
+         "design_ratio": 0.08618339896202087,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO2",
+         "design_check_type": "SP6400.00",
+         "member": 2.0
+      },
+      {
+         "no": 6.0,
+         "description": 1.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 1.0
+      },
+      {
+         "no": 7.0,
+         "description": 1.0,
+         "design_ratio": 0.1712532788515091,
+         "design_situation": "DS2",
+         "location": 6.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 2.0
+      },
+      {
+         "no": 9.0,
+         "description": "UB 356x171x45 | 1 - S355JR | Beams"
+      },
+      {
+         "no": 10.0,
+         "description": 2.0,
+         "design_ratio": 0.13672281801700592,
+         "design_situation": "DS1",
+         "location": 6.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 3.0
+      },
+      {
+         "no": 11.0,
+         "description": 2.0,
+         "design_ratio": 0.1412602663040161,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 4.0
+      },
+      {
+         "no": 12.0,
+         "description": 2.0,
+         "design_ratio": 0.046740587800741196,
+         "design_situation": "DS1",
+         "location": 4.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO1",
+         "design_check_type": "SP3100.00",
+         "member": 4.0
+      },
+      {
+         "no": 13.0,
+         "description": 2.0,
+         "design_ratio": 0.0921962559223175,
+         "design_situation": "DS1",
+         "location": 10.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 4.0
+      },
+      {
+         "no": 14.0,
+         "description": 2.0,
+         "design_ratio": 0.19862155616283417,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 3.0
+      },
+      {
+         "no": 15.0,
+         "description": 2.0,
+         "design_ratio": 0.21962708234786987,
+         "design_situation": "DS1",
+         "location": 10.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 4.0
+      },
+      {
+         "no": 16.0,
+         "description": 2.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 3.0
+      },
+      {
+         "no": 17.0,
+         "description": 2.0,
+         "design_ratio": 0.38753730058670044,
+         "design_situation": "DS2",
+         "location": 10.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO3",
+         "design_check_type": "SE1100.00",
+         "member": 4.0
+      },
+      {
+         "no": 19.0,
+         "description": "CHS 48.4x3 | 1 - S355JR | Chord"
+      },
+      {
+         "no": 20.0,
+         "description": 3.0,
+         "design_ratio": 0.9915426969528198,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 5.0
+      },
+      {
+         "no": 21.0,
+         "description": 3.0,
+         "design_ratio": 0.9927493333816528,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 6.0
+      },
+      {
+         "no": 22.0,
+         "description": 3.0,
+         "design_ratio": 0.014415117911994457,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 5.0
+      },
+      {
+         "no": 23.0,
+         "description": 3.0,
+         "design_ratio": 1.0056631565093994,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 5.0
+      },
+      {
+         "no": 24.0,
+         "description": 3.0,
+         "design_ratio": 1.0068697929382324,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 6.0
+      },
+      {
+         "no": 25.0,
+         "description": 3.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 5.0
+      },
+      {
+         "no": 26.0,
+         "description": 3.0,
+         "design_ratio": 0.11368897557258606,
+         "design_situation": "DS2",
+         "location": 1.4142135623730951,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO3",
+         "design_check_type": "SE1100.00",
+         "member": 8.0
+      }
+   ],
+   [
+      {
+         "no": 1.0,
+         "description": "UC 152x152x37 | 1 - S355JR | Columns"
+      },
+      {
+         "no": 2.0,
+         "description": 1.0,
+         "design_ratio": 0.08581872284412384,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 1.0
+      },
+      {
+         "no": 3.0,
+         "description": 1.0,
+         "design_ratio": 0.1664516031742096,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO2",
+         "design_check_type": "SP3100.00",
+         "member": 2.0
+      },
+      {
+         "no": 4.0,
+         "description": 1.0,
+         "design_ratio": 0.9210466146469116,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO2",
+         "design_check_type": "SP4100.00",
+         "member": 2.0
+      },
+      {
+         "no": 5.0,
+         "description": 1.0,
+         "design_ratio": 0.9210466146469116,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO2",
+         "design_check_type": "SP6400.00",
+         "member": 2.0
+      },
+      {
+         "no": 6.0,
+         "description": 1.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 1.0
+      },
+      {
+         "no": 7.0,
+         "description": 1.0,
+         "design_ratio": 3.7281222343444824,
+         "design_situation": "DS2",
+         "location": 6.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 2.0
+      },
+      {
+         "no": 9.0,
+         "description": "UB 406x178x54 | 1 - S355JR | Beams"
+      },
+      {
+         "no": 10.0,
+         "description": 2.0,
+         "design_ratio": 0.12998586893081665,
+         "design_situation": "DS1",
+         "location": 6.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 3.0
+      },
+      {
+         "no": 11.0,
+         "description": 2.0,
+         "design_ratio": 0.1306641846895218,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 4.0
+      },
+      {
+         "no": 12.0,
+         "description": 2.0,
+         "design_ratio": 0.037418730556964874,
+         "design_situation": "DS1",
+         "location": 4.0,
+         "design_check_description": "Section Proof | Shear in z-axis acc. to 13.4",
+         "loading": "CO1",
+         "design_check_type": "SP3100.00",
+         "member": 4.0
+      },
+      {
+         "no": 13.0,
+         "description": 2.0,
+         "design_ratio": 0.08096154034137726,
+         "design_situation": "DS1",
+         "location": 10.0,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 4.0
+      },
+      {
+         "no": 14.0,
+         "description": 2.0,
+         "design_ratio": 0.18838120996952057,
+         "design_situation": "DS1",
+         "location": 8.0,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 3.0
+      },
+      {
+         "no": 15.0,
+         "description": 2.0,
+         "design_ratio": 0.19948150217533112,
+         "design_situation": "DS1",
+         "location": 10.0,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 4.0
+      },
+      {
+         "no": 16.0,
+         "description": 2.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 3.0
+      },
+      {
+         "no": 17.0,
+         "description": 2.0,
+         "design_ratio": 0.321761816740036,
+         "design_situation": "DS2",
+         "location": 10.0,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO3",
+         "design_check_type": "SE1100.00",
+         "member": 4.0
+      },
+      {
+         "no": 19.0,
+         "description": "CHS 48.4x4 | 1 - S355JR | Chord"
+      },
+      {
+         "no": 20.0,
+         "description": 3.0,
+         "design_ratio": 0.754572331905365,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Tension acc. to 13.2",
+         "loading": "CO1",
+         "design_check_type": "SP1100.00",
+         "member": 5.0
+      },
+      {
+         "no": 21.0,
+         "description": 3.0,
+         "design_ratio": 0.7667412757873535,
+         "design_situation": "DS1",
+         "location": 0.0,
+         "design_check_description": "Section Proof | Compression acc. to 13.3",
+         "loading": "CO1",
+         "design_check_type": "SP1200.00",
+         "member": 6.0
+      },
+      {
+         "no": 22.0,
+         "description": 3.0,
+         "design_ratio": 0.014706955291330814,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending about y-axis acc. to 13.5",
+         "loading": "CO1",
+         "design_check_type": "SP4100.00",
+         "member": 5.0
+      },
+      {
+         "no": 23.0,
+         "description": 3.0,
+         "design_ratio": 0.7689847946166992,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and tensile axial force acc. to 13.9(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6300.00",
+         "member": 5.0
+      },
+      {
+         "no": 24.0,
+         "description": 3.0,
+         "design_ratio": 0.78115314245224,
+         "design_situation": "DS1",
+         "location": 1.4142135623730951,
+         "design_check_description": "Section Proof | Bending and compressive axial force acc. to 13.8.2(a) and 13.8.3(a)",
+         "loading": "CO1",
+         "design_check_type": "SP6400.00",
+         "member": 6.0
+      },
+      {
+         "no": 25.0,
+         "description": 3.0,
+         "design_ratio": 0.0,
+         "design_situation": "DS2",
+         "location": 0.0,
+         "design_check_description": "Serviceability | Negligible deflections",
+         "loading": "CO3",
+         "design_check_type": "SE0100.00",
+         "member": 5.0
+      },
+      {
+         "no": 26.0,
+         "description": 3.0,
+         "design_ratio": 0.11836352199316025,
+         "design_situation": "DS2",
+         "location": 1.4142135623730951,
+         "design_check_description": "Serviceability | Deflections in z-direction",
+         "loading": "CO4",
+         "design_check_type": "SE1100.00",
+         "member": 12.0
+      }
+   ]
+]
