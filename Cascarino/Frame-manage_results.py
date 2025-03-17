@@ -43,6 +43,7 @@ def find_max_design_ratios(data: list) -> list:
 # Main Code
 results = get_results_from_json("Cascarino\\Frame-results.json")
 sections_with_max_ratios = find_max_design_ratios(results)
+print(sections_with_max_ratios)
 
 section_1_names = []
 section_1_masses = []
