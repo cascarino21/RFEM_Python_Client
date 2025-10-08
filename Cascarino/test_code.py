@@ -1,54 +1,27 @@
-import openpyxl
-import pprint
+sections_in_model = ['UC 305x305x158', 'UB 254x146x37', 'IPE 200', 'EA 70x70x7', 'EA 80x80x8', 'CFC 150x65x20x3.0']
+classifications_in_model = []
+section_list = []
 
-def get_section_data(order_of_data):
-    # Location of modified section data file
-    # Note that the naming of the profile needs to match that in RFEM
-    path = "C:\\Users\\casca\\Desktop\Development\\RFEM_Python_Client\\Reference\Steel Profiles\\steel-profiles-south-africa.xlsx"
+for section in sections_in_model:
+    components = section.split(' ')
+    if len(components) > 2:
+        classifications_in_model.append(components[0]+' '+components[1])
+    else:
+        classifications_in_model.append(components[0])
 
-    wb_obj = openpyxl.load_workbook(path, data_only=True)
-    sheet_obj = wb_obj.active
+for classification in classifications_in_model:
+    match classification:
+        case 'UB':
+            section_list.append('I-Sections')
+        case 'IPE':
+            section_list.append('I-Sections')
+        case 'UC':
+            section_list.append('H-Sections')
+        case 'CHS':
+            section_list.append('CHS')
+        case 'EA':
+            section_list.append('Equal Angles')
+        case other:
+            section_list.append('Not-optimisable')
 
-    # IPE and UBs
-    # Position of data for IPEs and UBs in excel sheet
-    start_row = 11
-    end_row = 63
-
-    I_section_data = []
-    for i in range(start_row, end_row+1):
-        cell_obj = sheet_obj.cell(row=i, column=5)
-        if cell_obj.value != None:
-
-            I_section_data.append({
-                "name" : cell_obj.value,
-                "mass" : float(sheet_obj.cell(row=i, column=6).value)
-            })
-
-    # UCs
-    # Position of data for UCs in excel sheet
-    start_row = 80
-    end_row = 101
-
-    H_section_data = []
-    for i in range(start_row, end_row+1):
-        cell_obj = sheet_obj.cell(row=i, column=5)
-        if cell_obj.value != None:
-
-            H_section_data.append({
-                "name" : cell_obj.value,
-                "mass" : float(sheet_obj.cell(row=i, column=6).value)
-            })
-    section_data = []
-    for item in order_of_data:
-        match item:
-            case 'I-Sections':
-                section_data.append(I_section_data)
-            case 'H-Sections':
-                section_data.append(H_section_data)
-
-    return section_data
-
-section_data = get_section_data(['H-Sections', 'I-Sections'])
-
-list1 = sorted(section_data[0], key=lambda d: d['mass'])
-pprint.pprint(list1)
+print(section_list)

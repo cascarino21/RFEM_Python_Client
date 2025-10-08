@@ -39,6 +39,7 @@ def get_section_data(order_of_data):
                 "name" : cell_obj.value,
                 "mass" : float(sheet_obj.cell(row=i, column=6).value)
             })
+    I_section_data = sorted(I_section_data, key= lambda d: d['mass'])
 
     # UCs
     # Position of data for UCs in excel sheet
@@ -54,6 +55,27 @@ def get_section_data(order_of_data):
                 "name" : cell_obj.value,
                 "mass" : float(sheet_obj.cell(row=i, column=6).value)
             })
+    H_section_data = sorted(H_section_data, key= lambda d: d['mass'])
+
+    # CHSs
+    # Position of data for CHSs in excel sheet
+    start_row = 244
+    end_row = 367
+
+    # start_row = 277
+    # end_row = 331
+
+    CHS_section_data = []
+    for i in range(start_row, end_row+1):
+        cell_obj = sheet_obj.cell(row=i, column=5)
+        if cell_obj.value != None:
+
+            CHS_section_data.append({
+                "name" : cell_obj.value,
+                "mass" : round(float(sheet_obj.cell(row=i, column=6).value), 2)
+            })
+    CHS_section_data = sorted(CHS_section_data, key= lambda d: d['mass'])
+
     section_data = []
     for item in order_of_data:
         match item:
@@ -61,6 +83,8 @@ def get_section_data(order_of_data):
                 section_data.append(I_section_data)
             case 'H-Sections':
                 section_data.append(H_section_data)
+            case 'CHS':
+                section_data.append(CHS_section_data)
 
     return section_data
 
@@ -83,8 +107,8 @@ def initialize_population(population_size: int, section_data: list[list]):
     return [generate_genome(section_data) for _ in range(population_size)]
 
 # -- Functions related to RFEM --
-def connect_to_RFEM():
-    model = RFEM.initModel.Model(False, model_name="Model - Portal Frame.rf6")
+def connect_to_RFEM(file_name):
+    model = RFEM.initModel.Model(False, model_name=file_name)
     print("Connected!")
 
 def get_results() -> list:
@@ -165,7 +189,7 @@ def penalised_objective(weight, max_design_ratios, min_weight_all, min_weight_fe
     feasible = True
     for design_ratio in max_design_ratios:
         if design_ratio[2] >1:
-            multiplier = multiplier * design_ratio[2]
+            multiplier = (multiplier + design_ratio[2])
             feasible = False
     if feasible:
         penalised_weight = weight
@@ -193,7 +217,7 @@ def determine_cog(population, fitnesses) -> tuple:
         cog.append(sigma_x_i/sigma_i)
     return cog
 
-def generate_new_point(cog, generation, section_data, alpha = 1.0):
+def generate_new_point(cog, generation, section_data, alpha = 1.0, best_weight = 10000):
     new_point = []
     for cog_i,list in zip(cog,section_data):
         temp = int(round(cog_i + alpha*random.normal(0, 1)*len(list)/generation, 0))
@@ -203,24 +227,30 @@ def generate_new_point(cog, generation, section_data, alpha = 1.0):
 # Main Algorithm
 
 # Need to later get user input to confirm the order of the section data in the list
-section_data = get_section_data(['H-Sections', 'I-Sections'])
-sorted_section_data = []
-for list in section_data:
-    sorted_section_data.append(sorted(list, key= lambda d: d['mass']))
+# Test 1:
+# section_data = get_section_data(['H-Sections', 'I-Sections'])
 
-connect_to_RFEM()
+# Benchmarking Problem 1:
+section_data = get_section_data(['CHS', 'CHS', 'CHS', 'CHS', 'CHS'])
+# section_data = get_section_data(['CHS'])
+
+connect_to_RFEM(file_name = "Benchmarking Problem 1")
 sections_in_model, length_per_sections = get_RFEM_geometry()
 
 # Parameters
-population_size = 8
-generations = 8
+population_size = 5
+generations = 2
 all_calculated = []
 all_data = []
 saved_iterations = 0
 
 # Create population
-population = initialize_population(population_size=population_size, section_data=sorted_section_data)
+population = initialize_population(population_size=population_size, section_data=section_data)
 
+gens_without_improvement = 0
+temp_optimimum = []
+
+# Algorithm
 for generation in range(1, generations):
 
     generation_data = []
@@ -233,15 +263,17 @@ for generation in range(1, generations):
             generation_data.append(all_data[pos])
             saved_iterations = saved_iterations + 1
         else:
-            data = run_structural_analysis(genome = genome, section_lib=sorted_section_data)
+            data = run_structural_analysis(genome = genome, section_lib=section_data)
             generation_data.append(data)
             all_data.append(data)
             all_calculated.append(genome)
+    pprint.pprint(generation_data)
 
     max_design_ratios = []
     max_design_ratios = find_max_design_ratios(data=generation_data)
+    pprint.pprint(max_design_ratios)
 
-    weights = [calculate_weights(genome, sorted_section_data, length_per_sections, output_required=False) for genome in population]
+    weights = [calculate_weights(genome, section_data, length_per_sections, output_required=False) for genome in population]
 
     # Penalizing objectives
     min_weight_all, min_weight_feas = get_min_weights(weights=weights, max_design_ratios=max_design_ratios)
@@ -265,30 +297,44 @@ for generation in range(1, generations):
     for genome, max_design_ratio, weight, penalised_weight, fit in zip(population, max_design_ratios, weights, penalised_weights, fitnesses):
         print(f"Genome: {genome}: || Design Ratios: {max_design_ratio}, || Weight: {round(weight,2)} || Penalized Weight: {round(penalised_weight,2)} || Fitness: {round(fit,2)}")
     # --------------------------------------
+    # Checking if there is a change in the best solution from previous
+    if sortedPopulation[0] == temp_optimimum:
+        gens_without_improvement = gens_without_improvement + 1
+    else:
+        gens_without_improvement = 0
+        temp_optimimum = sortedPopulation[0]
 
+    # [0:1] only takes first value but it saves it as an array
     new_population = sortedPopulation[0:1]
-
     for _ in range(population_size-1):
-        new_population.append(generate_new_point(cog=cog, generation=generation, section_data=sorted_section_data))
+        while True:
+            temp_point = generate_new_point(cog=sortedPopulation[0], generation=generation, section_data=section_data)
+            temp_weight = calculate_weights(temp_point, section_data, length_per_sections, output_required=False)
+            if temp_weight < sortedPenalizedWeights[0]:
+                break
+        new_population.append(temp_point)
     population = new_population
     section_1, section_2 = [],[]
     for point in population:
         section_1.append(point[0])
         section_2.append(point[1])
 
-    plt.scatter(section_1, section_2)
+    # plt.scatter(section_1, section_2)
 
-    # plot best point and cog
-    plt.scatter(cog[0], cog[1])
-    plt.scatter(population[0][0], population[0][1])
+    # # plot best point and cog
+    # plt.scatter(cog[0], cog[1])
+    # plt.scatter(population[0][0], population[0][1])
 
-    ax = plt.gca()
-    ax.set_xlim(-0.5,len(sorted_section_data[0])+0.5)
-    ax.set_ylim(-0.5,len(sorted_section_data[1])+0.5)
-    plt.show()
+    # ax = plt.gca()
+    # ax.set_xlim(-0.5,len(sorted_section_data[0])+0.5)
+    # ax.set_ylim(-0.5,len(sorted_section_data[1])+0.5)
+    # plt.show()
 
     # Print best fitness in this generation
     best_fitness = max(fitnesses)
-    print(f"Generation {generation}, Best genome: {sortedPopulation[0]} has weight of {round(sortedPenalizedWeights[0],2)} and fitness of {round(best_fitness,2)}")
+    print(f"Generation {generation}, Best: {sortedPopulation[0]}, Weight: {round(sortedPenalizedWeights[0],2)}, Fitness: {round(best_fitness,2)}, Gens without improvement: {gens_without_improvement} ")
+
+    if gens_without_improvement == 5:
+        break
 
 print(f"Number of analyses saved = {saved_iterations}")
